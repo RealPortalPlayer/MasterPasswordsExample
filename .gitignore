@@ -1,3 +1,10 @@
+# The reason why we block all other files, is because we create each one of the database git projects inside this folder
+# Example:
+#       /mnt/data/Projects/Other/Passwords # Master
+#       /mnt/data/Projects/Other/Passwords/Intranet
+#       /mnt/data/Projects/Other/Passwords/Social
+#       /mnt/data/Projects/Other/Passwords/Games
+
 *
 !Master.kdbx
 !Master.keyx;
